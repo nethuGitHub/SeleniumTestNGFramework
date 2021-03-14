@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-14T13:27:35 IST" name="Suite" finished-at="2021-03-14T13:28:22 IST" duration-ms="47040">
+    <groups>
+    </groups>
+    <test started-at="2021-03-14T13:27:35 IST" name="Test" finished-at="2021-03-14T13:28:22 IST" duration-ms="47040">
+      <class name="com.application1.tests.OrangeHRMLogin">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:27:35 IST" name="setupSuite" finished-at="2021-03-14T13:27:35 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup([Ljava.lang.Object;)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:27:35 IST" name="setup" finished-at="2021-03-14T13:27:41 IST" duration-ms="5863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@77a281fc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup([Ljava.lang.Object;)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:27:35 IST" name="setup" finished-at="2021-03-14T13:27:41 IST" duration-ms="5796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4912d525]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Loginnew(java.util.Map)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:27:41 IST" name="Loginnew" data-provider="getData" finished-at="2021-03-14T13:27:46 IST" duration-ms="5130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=, password=admin123, browser=chrome, name=Loginnew, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginnew -->
+        <test-method signature="Login(java.util.Map)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:27:41 IST" name="Login" data-provider="getData" finished-at="2021-03-14T13:27:47 IST" duration-ms="5596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Sam, password=admin123, browser=chrome, name=Login, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:27:48 IST" name="tearDown" finished-at="2021-03-14T13:27:48 IST" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Loginnew status=SUCCESS method=OrangeHRMLogin.Loginnew(java.util.Map)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:27:48 IST" name="tearDown" finished-at="2021-03-14T13:27:48 IST" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=OrangeHRMLogin.Login(java.util.Map)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup([Ljava.lang.Object;)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:27:48 IST" name="setup" finished-at="2021-03-14T13:28:03 IST" duration-ms="14761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2bfbffb2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup([Ljava.lang.Object;)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:27:48 IST" name="setup" finished-at="2021-03-14T13:28:03 IST" duration-ms="15300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@765df79d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login(java.util.Map)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:28:03 IST" name="Login" data-provider="getData" finished-at="2021-03-14T13:28:09 IST" duration-ms="6011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=mark, password=admin123, browser=firefox, name=Login, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Loginnew(java.util.Map)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:28:03 IST" name="Loginnew" data-provider="getData" finished-at="2021-03-14T13:28:09 IST" duration-ms="5349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=john, password=admin123, browser=firefox, name=Loginnew, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginnew -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:28:09 IST" name="tearDown" finished-at="2021-03-14T13:28:09 IST" duration-ms="583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Loginnew status=SUCCESS method=OrangeHRMLogin.Loginnew(java.util.Map)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:28:09 IST" name="tearDown" finished-at="2021-03-14T13:28:09 IST" duration-ms="486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=OrangeHRMLogin.Login(java.util.Map)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup([Ljava.lang.Object;)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:28:09 IST" name="setup" finished-at="2021-03-14T13:28:14 IST" duration-ms="5161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@151335cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login(java.util.Map)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:28:14 IST" name="Login" data-provider="getData" finished-at="2021-03-14T13:28:21 IST" duration-ms="6850" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=james, password=admin1234, browser=chrome, name=Login, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for com.application1.page.BasePage$$Lambda$523/0x000000080038b478@33eeca8d (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.application1.page.BasePage$$Lambda$523/0x000000080038b478@33eeca8d (tried for 5 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.application1.page.BasePage.explicitilyWaitForAnElementDisplayed(BasePage.java:40)
+at com.application1.page.BasePage.click(BasePage.java:18)
+at com.application1.page.OrangeHRMHomePage.clickWelcome(OrangeHRMHomePage.java:19)
+at com.application1.tests.OrangeHRMLogin.Login(OrangeHRMLogin.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#welcome"}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R9DPKJC', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.EIbaOP}, goog:chromeOptions: {debuggerAddress: localhost:45931}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 41e7f21761b84c2247ae65f7b15...}
+Session ID: 41e7f21761b84c2247ae65f7b15540e5
+*** Element info: {Using=id, value=welcome}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.application1.page.BasePage.lambda$1(BasePage.java:40)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 19 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:28:22 IST" name="tearDown" finished-at="2021-03-14T13:28:22 IST" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=FAILURE method=OrangeHRMLogin.Login(java.util.Map)[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.application1.tests.OrangeHRMLogin@4da4253]" started-at="2021-03-14T13:28:22 IST" name="AfterSuite" finished-at="2021-03-14T13:28:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- com.application1.tests.OrangeHRMLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

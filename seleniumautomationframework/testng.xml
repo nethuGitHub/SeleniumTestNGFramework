@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" data-provider-thread-count="3">
+	<listeners>
+     	<listener class-name="com.application1.Listener.ListenerClass" />
+     	<listener class-name="com.application1.Listener.MethodInterceptor" />
+     </listeners>
+  <test thread-count="5" name="Test" parallel = "methods">
+    <classes>
+     
+      <class name="com.application1.tests.OrangeHRMLogin"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
